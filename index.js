@@ -28,3 +28,19 @@ const posts = [
     }
 ]
 
+let avatarSection = document.querySelector(".avatar-section")
+let postSection = document.querySelector(".post-section")
+let footer = document.querySelector("footer")
+
+avatarSection.innerHTML = 
+                    `
+                    <img src="${posts[0].avatar}" class="avatar-vangogh" alt="avatar-vangogh"> 
+                    <div class="name-details"><h2>${posts[0].name}</h2><br>
+                    <span>${posts[0].location}</span></div>
+                    `
+
+postSection.innerHTML = `
+                        <img src="${posts[0].post}" class="post-vangogh" alt="post-vangogh">
+                        `
+
+footer.innerHTML = `<h2>${posts[0].likes} likes<br>${posts[0].username}<span> ${posts[0].comment}</span></h2>`

@@ -1,5 +1,66 @@
-html, body {
+body {
     margin: 0;
-    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 0 15px 20px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.user-image {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-top: 23px;
+}
+
+.avatar-vangogh {
+    width: 65px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.avatar-section {
+    display: flex;
+}
+
+.name-details {
+    line-height: 0;
+}
+
+.name-details, .audience-reaction {
+    margin-top: 15px;
+}
+
+.audience-reaction, footer h2 {
+    margin-left: 15px;
+    margin-left: 15px;
+}
+
+.post-vangogh {
+    width: 100%;
+    height: 400px;
+}
+
+.audience-reaction {
+    margin-bottom: 0;
+    margin-right: 15px;
+    width: 50px;
+}
+
+span {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+footer h2 {
+    margin-top: 0;
+    line-height: 1.5cm;
+}
