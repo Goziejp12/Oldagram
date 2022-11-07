@@ -1,12 +1,15 @@
 body {
-    margin: 0;
+    width: 500px;
+    margin: 15px auto;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #CCCCCC;
     padding: 0 15px 20px;
 }
 
